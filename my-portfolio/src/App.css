@@ -1,0 +1,38 @@
+:root{
+  --light-green: #caffd0;
+  --dark-green: #3a7d44;
+  --light-purple: #d6c3c9;
+  --dark-purple: #55286f;
+  --gray: #3f4b3b;
+}
+
+body{
+  background-color: var(--light-purple);
+}
+
+.App {
+  text-align: center;
+  background-color: var(--gray);
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
