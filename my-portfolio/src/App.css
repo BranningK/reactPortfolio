@@ -12,7 +12,31 @@ body{
 
 .App {
   text-align: center;
-  background-color: var(--gray);
+}
+
+.aboutContainer{
+  display: grid;
+  color: black;
+  text-shadow: 1px 1px 3px var(--dark-green);
+  margin: 0px 40px 0px 40px;
+}
+
+.infoContainer{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.bio{
+  max-width: 30vw;
+}
+
+.photoOfMe{
+  padding: 15px;
+  background-color: white;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  min-width: 20vw;
+  box-shadow: 2px 3px 5px  #3f4b3b;
 }
 
 /* .App-logo {
