@@ -15,27 +15,38 @@ body{
 }
 
 .aboutContainer{
-  display: grid;
+  display: relative;
   color: black;
-  text-shadow: 1px 1px 3px var(--dark-green);
-  margin: 0px 40px 0px 40px;
+  font-size: larger;
+  /* text-shadow: 1px 1px 3px var(--dark-green); */
+  border: 1px solid black;
+  width: 100%;
 }
 
 .infoContainer{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
+  display: inline-grid;
+  grid-template-columns: .441466073fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 15px;
+  border: 1px solid red;
+  max-height: 50vh;
+  max-width: 90vw;
 }
 
 .bio{
-  max-width: 30vw;
+  max-width: 35vmax;
+  
+  border: 1px solid black;
+  bottom: 0px;
 }
 
 .photoOfMe{
-  padding: 15px;
+  padding: 2vmin;
+  padding-bottom: 5vmax;
   background-color: white;
-  padding-bottom: 50px;
   border-radius: 5px;
-  min-width: 20vw;
+  min-width: 13vmin;
+  max-width: 13vmax;
   box-shadow: 2px 3px 5px  #3f4b3b;
 }
 
