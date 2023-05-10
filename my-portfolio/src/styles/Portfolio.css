@@ -1,0 +1,15 @@
+.portfolioContainer{
+  margin-top: 4vh;
+  display: inline-grid;
+  grid-template-columns: 25vw 25vw;
+  grid-auto-rows: 20vh;
+  justify-self: center;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+
+.project{
+  background-color: #55286f;
+  padding: 20px;
+  border-radius: 5px;
+}
