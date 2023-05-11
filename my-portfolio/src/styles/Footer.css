@@ -8,20 +8,14 @@
 
 .App-footer{
   background-color: var(--dark-green);
-  color: white;
-  min-width: 100vw;
-  min-height: 2vh;
-  position: fixed;
-  bottom: 0px;
+  width: 100%;
+  min-height: 9vh;
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 10px -1px var(--gray);
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;
 }
 
 li{

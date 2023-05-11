@@ -2,9 +2,8 @@
   display: relative;
   color: black;
   font-size: larger;
-  /* text-shadow: 1px 1px 3px var(--dark-green); */
-  border: 1px solid black;
   width: 100%;
+  height: auto;
 }
 
 .infoContainer{
@@ -12,15 +11,12 @@
   grid-template-columns: .441466073fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 15px;
-  border: 1px solid red;
-  max-height: 50vh;
   max-width: 90vw;
+  padding-bottom: 50px;
 }
 
 .bio{
-  max-width: 35vmax;
-  border: 1px solid black;
-  bottom: 0px;
+  max-width: 50vw;
 }
 
 .photoOfMe{
